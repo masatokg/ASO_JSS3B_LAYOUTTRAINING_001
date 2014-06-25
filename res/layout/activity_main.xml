@@ -73,6 +73,17 @@
             android:text="TableLayoutへ"
             android:textColor="#FFFF0000" />
 
+        <Button
+            android:id="@+id/btnGRID"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#AAEEEEEE"
+            android:text="GridLayoutへ"
+            android:textColor="#FFFF0000" />
+
     </LinearLayout>
 
     <ImageView

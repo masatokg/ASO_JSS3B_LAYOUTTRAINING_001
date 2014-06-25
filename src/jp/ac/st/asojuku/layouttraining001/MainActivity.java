@@ -36,6 +36,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		// TableLayoutボタン変数にリスナーを登録する
 		Button btnTABLE = (Button)findViewById(R.id.btnTABLE);
 		btnTABLE.setOnClickListener(this);
+
+		// GridLayoutボタン変数にリスナーを登録する
+		Button btnGrid = (Button)findViewById(R.id.btnGRID);
+		btnGrid.setOnClickListener(this);
 	}
 
 	@Override
@@ -67,6 +71,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 				// インテントのインスタンス生成
 				intent = new Intent(MainActivity.this, TableLayoutActivity.class);
+				break;
+
+			case R.id.btnGRID: // GridLayoutボタンが押された
+
+				// インテントのインスタンス生成
+				intent = new Intent(MainActivity.this, GridLayoutActivity.class);
 				break;
 		}
 		// 次画面のアクティビティ起動
