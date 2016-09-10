@@ -8,6 +8,7 @@ public class RelativeLayoutActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO 自動生成されたメソッド・スタブ
+		// this is push test
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.relativelayout_activity);
 	}
